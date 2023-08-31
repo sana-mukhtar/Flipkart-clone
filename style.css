@@ -1,0 +1,252 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&family=Poppins:ital,wght@0,200;0,400;0,700;1,200;1,300;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&family=Poppins:ital,wght@0,200;0,400;0,700;1,200;1,300;1,500;1,600;1,700;1,800;1,900&family=Roboto:wght@300&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&family=Poppins:ital,wght@0,200;0,400;0,700;1,200;1,300;1,500;1,600;1,700;1,800;1,900&display=swap');
+:root {
+    --main-bg-color: #2874f0;;
+  }
+
+
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: #dbd7d7;
+}
+
+nav{
+  display: flex;
+  align-items: center;
+  padding: 0px;
+ 
+}
+
+.logo{
+    display: flex;
+    align-items: center;
+   
+   
+}
+
+.logo img{
+    width: 70px;
+    padding: 0 27px;
+
+}
+header{
+    background:var(--main-bg-color) ;
+    height: 58px;
+    color: rgba(244, 244, 235, 0.882);
+    font-family: 'Lato', sans-serif;
+}
+ nav ul{
+    height: 8vh;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+
+ }
+nav ul li {
+    list-style: none;
+    padding:  22px;
+    
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+}
+nav ul li a:hover {
+    font-weight: bolder;
+}
+
+.search {
+        display: flex;
+        align-items: center;
+        
+}
+
+.search input{
+      
+        height: 30px;
+        width: 30vw;
+        border-radius: 2px;
+        margin: 0 40px;
+        padding: 0 12px;
+
+}
+
+.btn{
+    padding: 0 10px;
+    background-color: #fff;
+    color: var(--main-bg-color);
+    height: 29px;
+    width: 6.5vw;
+    cursor: pointer;
+    font-weight: 400;
+    font-size: medium;
+}
+
+.seller{
+    margin: 0 30px;
+    padding: 0 10px;
+    color: #fff;
+    height: 29px;
+    width: auto;
+    cursor: pointer;
+    font-weight: bold;
+    font-size: medium;
+}
+.cart{
+    padding: 0 10px;
+    color: #fff;
+    height: 29px;
+    width: 6.5vw;
+    cursor: pointer;
+    font-weight: bold;
+    font-size: medium;
+}
+ 
+
+.slider{
+    margin: 12px 0px 12px 10px;
+    padding-left: 50px ;
+    width: 80vw;
+    overflow: hidden;
+    
+}
+
+.slider img{
+    border: 5px 0px solid white;
+    height: 300px;
+    width: 90vw;
+    
+}
+.slider2{
+    height: 30vh;
+    width: 80vw;
+    overflow: hidden;
+}
+.container{
+    min-height: calc(100vh - 40vh -58px - 12vh);
+}
+
+.card{
+    background-color: #fff;
+    display: flex;
+    align-items: center;
+    max-width: 100vw;
+    padding-left: 15px;
+    margin: 0 10px;
+    border-radius: 5px;
+    font-family: 'Roboto', sans-serif;
+    
+}
+
+.card-items{
+   
+   margin: 0 15px;
+   padding: 0 15px;
+   font-family: 'Lato', sans-serif;
+    max-width: 900px;
+    font-size: small;
+    
+
+    
+}
+
+.card-cart{
+    display: grid;
+    background: white;
+    border-radius: 5px;
+    border: 2px solid rgb(244, 243, 243) ;
+    grid-column-gap: 4px;
+    grid-template-columns : auto auto auto auto auto auto auto auto;
+    margin: 0 10px;
+}
+
+.card-items img{
+    height: 100px;
+    width: 100px;
+}
+
+.lines{
+    justify-content: center;
+    margin: 0 15px;
+}
+
+.card2{
+    background-color: #fff;
+    display: flex;
+    font-family: 'Roboto', sans-serif;
+    align-items: center;
+    max-width: 100vw;
+    padding-left: 15px;
+    margin: 15px 10px 0 10px;
+
+    border-radius: 5px;
+    
+}
+
+.card3{
+    background-color: #fff;
+    display: flex;
+    font-family: 'Roboto', sans-serif;
+    align-items: center;
+    max-width: 100vw;
+    padding-left: 15px;
+    margin: 15px 10px 0 10px;
+
+    border-radius: 5px;
+    
+}
+
+.box{
+    padding-top: 15px;
+}
+
+.Disclaimer{
+    background-color:white;
+    color: rgb(146, 161, 177);
+    font-size: x-small;
+    height: auto;
+    width: 100vw;
+    font-family: 'Poppins', sans-serif;
+
+}
+
+.lastbox{
+    display: grid;
+    grid-column-gap: 4px;
+    grid-template-columns : auto auto auto auto;
+    margin: 0 10px;
+    
+}
+
+.content a {
+    text-decoration: none;
+    color: #fff;
+    font-size: smaller;
+}
+
+footer p a:hover {
+    font-weight: bolder;
+}
+
+footer hr{
+    color: #9abdf1;
+    min-height: 0px;
+    max-height: 1px ;
+}
+
+
+footer{
+    padding: 12px 0px;
+    background-color: var(--main-bg-color);
+    height: auto;
+    color: white;
+    font-family: 'Lato', sans-serif;
+    
+}

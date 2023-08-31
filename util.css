@@ -1,0 +1,36 @@
+.flex-all-center{
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: small;
+    
+}
+
+.textcenter{
+    text-align: center;
+}
+
+.mrg-class{
+    margin-top: 20px;
+}
+
+.offer{
+    color: green;
+}
+
+.btn2{
+    
+    padding: 0 10px;
+    background-color:var(--main-bg-color);
+    color: #fff;
+    height: 29px;
+    width: 6.5vw;
+    cursor: pointer;
+    font-weight: 400;
+    font-size: medium;
+}
+
+.bold{
+    font-weight: bold;
+}
