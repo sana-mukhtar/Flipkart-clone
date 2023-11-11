@@ -111,17 +111,18 @@ nav ul li a:hover {
  
 
 .slider{
-    margin: 12px 0px 12px 10px;
-    padding-left: 50px ;
-    width: 80vw;
+    padding-left: 0;
+    margin: 0px;
+    width: 100%;
+    
     overflow: hidden;
     
 }
 
 .slider img{
     border: 5px 0px solid white;
-    height: 300px;
-    width: 90vw;
+    height: 64vh;
+    width: 100vw;
     
 }
 .slider2{
